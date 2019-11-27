@@ -3,11 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		055FC93A571929B348DE7FFB /* Pods_Clime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E91F6411FAA687DCBE2F50C3 /* Pods_Clime.framework */; };
+		BE3FB6CC238EFC70001113AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3FB6CB238EFC70001113AE /* CoreLocation.framework */; };
+		BE3FB6D0238EFE75001113AE /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3FB6CF238EFE75001113AE /* NavigationViewController.swift */; };
+		BE3FB6D2238F1066001113AE /* AwareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3FB6D1238F1066001113AE /* AwareViewController.swift */; };
 		DAAB15252311902B00434608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB15242311902B00434608 /* AppDelegate.swift */; };
 		DAAB15272311902B00434608 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB15262311902B00434608 /* WeatherViewController.swift */; };
 		DAAB152A2311902B00434608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAB15282311902B00434608 /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 
 /* Begin PBXFileReference section */
 		B2DB27B3BD94A316DADADACF /* Pods-Clime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clime.release.xcconfig"; path = "Target Support Files/Pods-Clime/Pods-Clime.release.xcconfig"; sourceTree = "<group>"; };
+		BE3FB6CB238EFC70001113AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		BE3FB6CF238EFE75001113AE /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
+		BE3FB6D1238F1066001113AE /* AwareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwareViewController.swift; sourceTree = "<group>"; };
 		C8DC1DA48F6C4DD86E7D0CCD /* Pods-Clime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clime.debug.xcconfig"; path = "Target Support Files/Pods-Clime/Pods-Clime.debug.xcconfig"; sourceTree = "<group>"; };
 		DAAB15212311902B00434608 /* Clime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAB15242311902B00434608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3FB6CC238EFC70001113AE /* CoreLocation.framework in Frameworks */,
 				055FC93A571929B348DE7FFB /* Pods_Clime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -47,6 +54,7 @@
 		09D22492ECCEBD0165158546 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BE3FB6CB238EFC70001113AE /* CoreLocation.framework */,
 				E91F6411FAA687DCBE2F50C3 /* Pods_Clime.framework */,
 			);
 			name = Frameworks;
@@ -58,7 +66,6 @@
 				C8DC1DA48F6C4DD86E7D0CCD /* Pods-Clime.debug.xcconfig */,
 				B2DB27B3BD94A316DADADACF /* Pods-Clime.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -107,6 +114,8 @@
 				DAAB15262311902B00434608 /* WeatherViewController.swift */,
 				DAAB15242311902B00434608 /* AppDelegate.swift */,
 				DAAB153B2311916200434608 /* ChangeCityViewController.swift */,
+				BE3FB6CF238EFE75001113AE /* NavigationViewController.swift */,
+				BE3FB6D1238F1066001113AE /* AwareViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -237,7 +246,9 @@
 				DAAB15272311902B00434608 /* WeatherViewController.swift in Sources */,
 				DAAB15252311902B00434608 /* AppDelegate.swift in Sources */,
 				DAAB153A2311913000434608 /* WeatherDataModel.swift in Sources */,
+				BE3FB6D0238EFE75001113AE /* NavigationViewController.swift in Sources */,
 				DAAB153C2311916200434608 /* ChangeCityViewController.swift in Sources */,
+				BE3FB6D2238F1066001113AE /* AwareViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

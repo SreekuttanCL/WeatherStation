@@ -49,6 +49,7 @@ class WeatherViewController: UIViewController, CLLocationManagerDelegate, change
                 
                 let weatherJSON : JSON = JSON(response.result.value!)
                 self.updateWeatherData(json: weatherJSON)
+                print(weatherJSON)
             }
             else {
                 print("error")   //make a error alert for user
