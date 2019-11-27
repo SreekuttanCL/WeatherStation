@@ -11,6 +11,8 @@
 		BE3FB6CC238EFC70001113AE /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BE3FB6CB238EFC70001113AE /* CoreLocation.framework */; };
 		BE3FB6D0238EFE75001113AE /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3FB6CF238EFE75001113AE /* NavigationViewController.swift */; };
 		BE3FB6D2238F1066001113AE /* AwareViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3FB6D1238F1066001113AE /* AwareViewController.swift */; };
+		BE3FB6D8238F194C001113AE /* SavedPlaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3FB6D7238F194C001113AE /* SavedPlaceViewController.swift */; };
+		BE3FB6DA238F1B65001113AE /* PlacesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE3FB6D9238F1B65001113AE /* PlacesTableViewController.swift */; };
 		DAAB15252311902B00434608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB15242311902B00434608 /* AppDelegate.swift */; };
 		DAAB15272311902B00434608 /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAAB15262311902B00434608 /* WeatherViewController.swift */; };
 		DAAB152A2311902B00434608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAAB15282311902B00434608 /* Main.storyboard */; };
@@ -25,6 +27,8 @@
 		BE3FB6CB238EFC70001113AE /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BE3FB6CF238EFE75001113AE /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 		BE3FB6D1238F1066001113AE /* AwareViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AwareViewController.swift; sourceTree = "<group>"; };
+		BE3FB6D7238F194C001113AE /* SavedPlaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SavedPlaceViewController.swift; sourceTree = "<group>"; };
+		BE3FB6D9238F1B65001113AE /* PlacesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacesTableViewController.swift; sourceTree = "<group>"; };
 		C8DC1DA48F6C4DD86E7D0CCD /* Pods-Clime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clime.debug.xcconfig"; path = "Target Support Files/Pods-Clime/Pods-Clime.debug.xcconfig"; sourceTree = "<group>"; };
 		DAAB15212311902B00434608 /* Clime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAAB15242311902B00434608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +120,8 @@
 				DAAB153B2311916200434608 /* ChangeCityViewController.swift */,
 				BE3FB6CF238EFE75001113AE /* NavigationViewController.swift */,
 				BE3FB6D1238F1066001113AE /* AwareViewController.swift */,
+				BE3FB6D7238F194C001113AE /* SavedPlaceViewController.swift */,
+				BE3FB6D9238F1B65001113AE /* PlacesTableViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -243,6 +249,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE3FB6D8238F194C001113AE /* SavedPlaceViewController.swift in Sources */,
+				BE3FB6DA238F1B65001113AE /* PlacesTableViewController.swift in Sources */,
 				DAAB15272311902B00434608 /* WeatherViewController.swift in Sources */,
 				DAAB15252311902B00434608 /* AppDelegate.swift in Sources */,
 				DAAB153A2311913000434608 /* WeatherDataModel.swift in Sources */,
