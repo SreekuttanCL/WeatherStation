@@ -18,8 +18,7 @@ class AwareViewController: UIViewController, CLLocationManagerDelegate {
     @IBOutlet weak var longituteText: UILabel!
     
     @IBOutlet weak var courseText: UILabel!
-    
-    
+
     @IBOutlet weak var speedText: UILabel!
     
     @IBOutlet weak var altituteText: UILabel!
@@ -42,8 +41,6 @@ class AwareViewController: UIViewController, CLLocationManagerDelegate {
         let course = userLocation.course
         let speed = userLocation.speed
         let altitute =  userLocation.altitude
-        
-        
         
         
         latituteText.text = String(latitute)

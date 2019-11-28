@@ -23,8 +23,6 @@ class SavedPlaceViewController: UIViewController, CLLocationManagerDelegate, MKM
                 uiLongPressgestureRecognizer.minimumPressDuration = 2
                 showMap.addGestureRecognizer(uiLongPressgestureRecognizer)
                 
-
-                
                 
                 if activePlace == -1
                 {
